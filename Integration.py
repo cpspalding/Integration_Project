@@ -22,7 +22,7 @@ def main():
         while not_number:
             try:
                 initialCarpet = float(input("How many square feet of carpet "
-                                            "would user like"
+                                            "would user like "
                                             "cleaned?(Whole number/decimal):"))
                 not_number = False
             except ValueError:
